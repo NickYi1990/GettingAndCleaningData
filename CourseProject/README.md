@@ -25,3 +25,8 @@ Good luck!
 
 1. Copy code to your RStudio software
 2. Just run it... Download data/Unzip/load libraries are all in the code, so, please do not worry about it.
+
+
+#Output of run_analysis.R
+
+The output file is named Result.txt which is under the UCI HAR Daraset Folder.
