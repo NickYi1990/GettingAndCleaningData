@@ -1,8 +1,7 @@
 # GettingAndCleaningData
 
 
-####Repository for Coursera course 
+####Repository for Coursera course [Getting and Cleaning Data](https://class.coursera.org/getdata-035). 
 
->Getting and Cleaning Data. 
+####Please see README.md files under each folder for more details.
 
-####>Please see README.md files under each folder for more details.
