@@ -2,8 +2,14 @@ url <- getwd()
 download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", paste(url, "/wearable.zip", sep = ""))
 unzip("wearable.zip")
 setwd(paste(url, "/UCI HAR Dataset", sep = ""))
-library(dplyr)
-library(data.table)
+if(!require(dplyr)){
+  install.packages("dplyr")
+  library(dplyr)
+}
+if(!require(data.table)){
+  install.packages("data.table")
+  library(data.table)
+}
 
 #feature <----> x_test x_train  This file contains variables' names
 features <- read.table("features.txt")
